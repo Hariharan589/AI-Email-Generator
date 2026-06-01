@@ -1,0 +1,14 @@
+.ai-reply-btn {
+    margin-right: 10px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.ai-reply-btn:hover {
+    background: #1557b0;
+}
