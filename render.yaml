@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ai-email-backend
+    runtime: java
+    rootDir: email-writer-sb
+    buildCommand: mvnw clean package -DskipTests
+    startCommand: java -jar target/*.jar
